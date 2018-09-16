@@ -1,0 +1,8 @@
+body {
+    padding: 1.6vw;
+}
+@media (orientation: landscape) {
+    body {
+        padding: 0.9vw 1.799vw;
+    }
+}
