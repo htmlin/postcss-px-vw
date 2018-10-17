@@ -4,7 +4,7 @@
  */
 const postcss = require('postcss')
 
-module.exports = postcss.plugin('postcss-px-vw', ({ width = 750, height = 1334, toFixed = 3 } = {}) => {
+module.exports = postcss.plugin('postcss-px-vw', ({ width = 750, height = 1448, toFixed = 3 } = {}) => {
     return (root, result) => {
         root.walkRules((rule) => {
             rule.walkDecls((decl) => {
